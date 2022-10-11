@@ -1,11 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// == Import: npm
 
-function App() {
+
+// == Import: local
+import './accueil.scss';
+
+
+// == Composant
+function Accueil() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="accueil">
+      <h1 className="accueil__title"> Github API </h1>
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,9 +22,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      
     </div>
   );
 }
 
-export default App;
+// == Export
+export default Accueil;

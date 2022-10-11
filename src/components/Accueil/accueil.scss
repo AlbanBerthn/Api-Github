@@ -1,0 +1,17 @@
+@use 'src/styles/vars';
+
+.accueil {
+  width: 90%;
+  margin: vars.$gutter auto;
+  padding: 1em;
+  background-color: vars.$alt-color;
+  border: 2px solid vars.$light-color;
+  border-radius: 8px;
+  color: vars.$light-color;
+
+  &__title {
+    font-weight: vars.$fwBold;
+    font-size: 50px;
+    text-align: center;
+  }
+}
