@@ -11,7 +11,7 @@ function Card({
   return (
     <div className='card'>
       <div className='card__top'>
-        <img className='card__image' src={img} alt="avatar de l'auteur" />
+        <img className='card__top--image' src={img} alt="avatar de l'auteur" />
       </div>
       <div className='card__bot'>
         <span className='card__bot--nom'>{name}</span>

@@ -1,0 +1,15 @@
+@use '../../styles/vars';
+
+.faq {
+
+  &__title {
+    font-size:x-large;
+    font-weight: vars.$fwBold;
+    text-align: center;
+    margin: 1rem auto;
+  }
+
+  &__texte {
+    font-size: larger;
+  }
+}

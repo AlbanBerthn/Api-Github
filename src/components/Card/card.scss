@@ -1,0 +1,43 @@
+@use '../../styles/vars';
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 2px solid vars.$main-color;
+  border-radius: 5px;
+  width: 250px;
+  margin: 1rem auto;
+  box-shadow: 0px 5px 20px vars.$main-color;
+  
+
+  &__top{
+    border-bottom: solid 2px vars.$main-color;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__top--image{
+    width: 150%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__bot{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    font-size: larger;
+  }
+
+  &__bot--nom{
+    margin-bottom: 0.4rem;
+  }
+
+  &__bot--auteur {
+    margin-bottom: 0.4rem;
+  }
+}
